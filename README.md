@@ -2,19 +2,20 @@
 
 ## **1.	Introduction**
 
-Melbourne has consistently led Australia in terms of population growth (Melbourne Demographics. Wikipedia, 2021). Approximately 80% of transactions for the purchase and sale of residential properties in Melbourne are completed through public property auctions.
+Melbourne has consistently led Australia in terms of population growth ([Melbourne Demographics. Wikipedia, 2021](https://en.wikipedia.org/wiki/Demographics_of_Melbourne)). Approximately 80% of transactions for the purchase and sale of residential properties in Melbourne are completed through public property auctions.
 
-The auction method so commonly used in Australia for property sales differs from the private sale/treaty method used in many other jurisdictions. The chief differences between the two methods of sale are that in the private sale method the seller states an expected sale price. In an auction, while the seller may establish a reserve price known only to the seller and the auctioneer, no expectation of a selling price is tabled for potential buyers. While the auction method is more transparent for buyers it can result in higher prices than the private sale/treaty alternative. (Frino et al., 2010). Certainly the “real time” dynamic of the auction experience increases the competitive and emotional context of the sale.
+The auction method so commonly used in Australia for property sales differs from the private sale/treaty method used in many other jurisdictions. The chief differences between the two methods of sale are that in the private sale method the seller states an expected sale price. In an auction, while the seller may establish a reserve price known only to the seller and the auctioneer, no expectation of a selling price is tabled for potential buyers. While the auction method is more transparent for buyers it can result in higher prices than the private sale/treaty alternative. ([Frino et al., 2010](https://ro.uow.edu.au/cgi/viewcontent.cgi?article=1092&context=aabfj)). Certainly the “real time” dynamic of the auction experience increases the competitive and emotional context of the sale.
 
 ## **2.	Analytical objectives**
 
-In Melbourne there is a need for buyers and sellers to be knowledgeable about auction market pricing that includes emotional component. Sellers by auction need to strike the right reserve price to encourage bidders. Buyers need to take care not to overbid in the heat of the moment. The need for pricing information in the Australian based context is increased as most Australian buyers do not use agents, while sellers typically do. (Just Landed, 2021).
+In Melbourne there is a need for buyers and sellers to be knowledgeable about auction market pricing that includes emotional component. Sellers by auction need to strike the right reserve price to encourage bidders. Buyers need to take care not to overbid in the heat of the moment. The need for pricing information in the Australian based context is increased as most Australian buyers do not use agents, while sellers typically do. ([Just Landed, 2021](https://www.justlanded.com/english/Australia/Australia-Guide/Property/Buying-at-Auctio
+n)).
 
 ***This project attempts to predict the property auction sale prices, or in other words, people's willingness to pay a certain price for a particular property,*** based on data from auction property sales in 2016-2017. It makes use of several libraries in Python: pandas for data cleaning, analysis, and feature engineering, matplotlib and seaborn for data visualization, and scikit-learn and xgboost for machine learning. ***The goal is to train several different models (including linear, tree-based, and ensemble methods) to come up with the best model that can predict auction selling price within one standard deviation of the mean.***
 
 ## **3.	Overview of the Data**
 
-The source dataset (21 columns and 13580 rows) is publicly available at: https://www.kaggle.com/dansbecker/melbourne-housing-snapshot?select=melb_data.csv.
+The source dataset (21 columns and 13580 rows) is publicly available [hear](https://www.kaggle.com/dansbecker/melbourne-housing-snapshot?select=melb_data.csv).
 
 The final dataset used for training the models contains **23** columns and 10147 rows:
 
