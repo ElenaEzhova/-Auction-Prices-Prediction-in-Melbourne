@@ -8,8 +8,7 @@ The auction method so commonly used in Australia for property sales differs from
 
 ## **2.	Analytical objectives**
 
-In Melbourne there is a need for buyers and sellers to be knowledgeable about auction market pricing that includes emotional component. Sellers by auction need to strike the right reserve price to encourage bidders. Buyers need to take care not to overbid in the heat of the moment. The need for pricing information in the Australian based context is increased as most Australian buyers do not use agents, while sellers typically do. ([Just Landed, 2021](https://www.justlanded.com/english/Australia/Australia-Guide/Property/Buying-at-Auctio
-n)).
+In Melbourne there is a need for buyers and sellers to be knowledgeable about auction market pricing that includes emotional component. Sellers by auction need to strike the right reserve price to encourage bidders. Buyers need to take care not to overbid in the heat of the moment. The need for pricing information in the Australian based context is increased as most Australian buyers do not use agents, while sellers typically do. ([Just Landed, 2021](https://www.justlanded.com/english/Australia/Australia-Guide/Property/Buying-at-Auction)).
 
 ***This project attempts to predict the property auction sale prices, or in other words, people's willingness to pay a certain price for a particular property,*** based on data from auction property sales in 2016-2017. It makes use of several libraries in Python: pandas for data cleaning, analysis, and feature engineering, matplotlib and seaborn for data visualization, and scikit-learn and xgboost for machine learning. ***The goal is to train several different models (including linear, tree-based, and ensemble methods) to come up with the best model that can predict auction selling price within one standard deviation of the mean.***
 
