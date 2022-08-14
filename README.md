@@ -55,11 +55,11 @@ Regionname: General Region of the city (**8 regions**)
 2. Explored linear correlation between each of the continuous variables and the price and checked for collinearity.
 3. Explored the relationships between price and categorical variables.
 4. Prepared the final dataset:
- -	dropped unused columns,
- -	replaced missing/null values depending on the type of property, localization, or local features of the property,
- -	created a new variable 'BuildAge' that indicates the property age in 2022,
- -	removed duplicates, price outliers and methods that are not a complete selling,
- -	converted categorical variables into dummy/indicator variables.
+   -	dropped unused columns,
+   -	replaced missing/null values depending on the type of property, localization, or local features of the property,
+   -	created a new variable 'BuildAge' that indicates the property age in 2022,
+   -	removed duplicates, price outliers and methods that are not a complete selling,
+   -	converted categorical variables into dummy/indicator variables.
 5. Trained 11 models (linear, regression and ensemble methods) to find which ML model worked best for this dataset, and tuned parameters for this model. Performance measure: 1) R2 (pronounced "R squared") evaluates the fit of the model, with 1.0 being a perfect fit; 2) Root Mean Squared Error (RMSE) well below that $423,000 - standard deviation of the mean auction sales price. 
 
 ## **6. Results**
@@ -70,6 +70,7 @@ The XGBoost Regressor performed the best on the dataset.
 
 
 R2=0.82
+
 RMSE=184750
 
 ![image](https://user-images.githubusercontent.com/95148782/184517045-e54d8b59-ed84-43a9-9b45-16689ba1ac1f.png)
